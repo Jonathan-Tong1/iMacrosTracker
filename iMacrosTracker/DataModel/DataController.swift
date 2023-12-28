@@ -42,7 +42,7 @@ class DataController: ObservableObject {
         food.date = Date()
         food.name = name
         food.calories = calories
-        
+
         save(context:context)
     }
 }

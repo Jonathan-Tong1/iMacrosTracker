@@ -15,6 +15,7 @@
 		E5C406282B3DD04F00487FF0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C406272B3DD04F00487FF0 /* DataController.swift */; };
 		E5C4062C2B3DD2C300487FF0 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4062B2B3DD2C300487FF0 /* AddFoodView.swift */; };
 		E5C4062E2B3DD3F800487FF0 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4062D2B3DD3F800487FF0 /* TimeFormatting.swift */; };
+		E5C406302B3DD62D00487FF0 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4062F2B3DD62D00487FF0 /* EditFoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E5C406272B3DD04F00487FF0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		E5C4062B2B3DD2C300487FF0 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		E5C4062D2B3DD3F800487FF0 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		E5C4062F2B3DD62D00487FF0 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				E5C406172B3DC9E500487FF0 /* ContentView.swift */,
 				E5C4062B2B3DD2C300487FF0 /* AddFoodView.swift */,
+				E5C4062F2B3DD62D00487FF0 /* EditFoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				E5C406282B3DD04F00487FF0 /* DataController.swift in Sources */,
 				E5C406162B3DC9E500487FF0 /* iMacrosTrackerApp.swift in Sources */,
 				E5C406262B3DCDB200487FF0 /* FoodModel.xcdatamodeld in Sources */,
+				E5C406302B3DD62D00487FF0 /* EditFoodView.swift in Sources */,
 				E5C4062E2B3DD3F800487FF0 /* TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
