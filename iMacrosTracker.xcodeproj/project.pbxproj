@@ -13,6 +13,8 @@
 		E5C4061D2B3DC9E700487FF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C4061C2B3DC9E700487FF0 /* Preview Assets.xcassets */; };
 		E5C406262B3DCDB200487FF0 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5C406242B3DCDB200487FF0 /* FoodModel.xcdatamodeld */; };
 		E5C406282B3DD04F00487FF0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C406272B3DD04F00487FF0 /* DataController.swift */; };
+		E5C4062C2B3DD2C300487FF0 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4062B2B3DD2C300487FF0 /* AddFoodView.swift */; };
+		E5C4062E2B3DD3F800487FF0 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4062D2B3DD3F800487FF0 /* TimeFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E5C4061C2B3DC9E700487FF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5C406252B3DCDB200487FF0 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		E5C406272B3DD04F00487FF0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		E5C4062B2B3DD2C300487FF0 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		E5C4062D2B3DD3F800487FF0 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				E5C406152B3DC9E500487FF0 /* iMacrosTrackerApp.swift */,
-				E5C406172B3DC9E500487FF0 /* ContentView.swift */,
+				E5C4062A2B3DD28A00487FF0 /* Helpers */,
+				E5C406292B3DD28000487FF0 /* Views */,
 				E5C406232B3DCD9300487FF0 /* DataModel */,
 				E5C406192B3DC9E700487FF0 /* Assets.xcassets */,
 				E5C4061B2B3DC9E700487FF0 /* Preview Content */,
@@ -79,6 +84,23 @@
 				E5C406272B3DD04F00487FF0 /* DataController.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		E5C406292B3DD28000487FF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5C406172B3DC9E500487FF0 /* ContentView.swift */,
+				E5C4062B2B3DD2C300487FF0 /* AddFoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5C4062A2B3DD28A00487FF0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E5C4062D2B3DD3F800487FF0 /* TimeFormatting.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C4062C2B3DD2C300487FF0 /* AddFoodView.swift in Sources */,
 				E5C406182B3DC9E500487FF0 /* ContentView.swift in Sources */,
 				E5C406282B3DD04F00487FF0 /* DataController.swift in Sources */,
 				E5C406162B3DC9E500487FF0 /* iMacrosTrackerApp.swift in Sources */,
 				E5C406262B3DCDB200487FF0 /* FoodModel.xcdatamodeld in Sources */,
+				E5C4062E2B3DD3F800487FF0 /* TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
